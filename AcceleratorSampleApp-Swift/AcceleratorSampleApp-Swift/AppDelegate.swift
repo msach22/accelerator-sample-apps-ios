@@ -10,11 +10,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let apiKey: String = ""
+    let sessionId: String = ""
+    let token: String = ""
     private(set) var session: OTAcceleratorSession?
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        session = OTAcceleratorSession.init(openTokApiKey: <#apikey#>, sessionId: <#sessionid#>, token: <#token#>)
+        session = OTAcceleratorSession.init(openTokApiKey: apiKey, sessionId: sessionId, token: token)
         return true
     }
 }

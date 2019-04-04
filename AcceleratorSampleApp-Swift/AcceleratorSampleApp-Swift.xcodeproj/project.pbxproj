@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B850B1DD2542BC2741A62DA /* libPods-AcceleratorSampleApp-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC709F43AE400DF3D09D862 /* libPods-AcceleratorSampleApp-Swift.a */; };
 		A008E78F1E721A0D00CFF213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008E78E1E721A0D00CFF213 /* AppDelegate.swift */; };
-		A008E7941E721A0D00CFF213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A008E7921E721A0D00CFF213 /* Main.storyboard */; };
-		A008E7961E721A0D00CFF213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A008E7951E721A0D00CFF213 /* Assets.xcassets */; };
-		A008E7991E721A0D00CFF213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A008E7971E721A0D00CFF213 /* LaunchScreen.storyboard */; };
 		A008E7A41E721A0D00CFF213 /* AcceleratorSampleApp_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008E7A31E721A0D00CFF213 /* AcceleratorSampleApp_SwiftTests.swift */; };
 		A008E7AF1E721A0D00CFF213 /* AcceleratorSampleApp_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008E7AE1E721A0D00CFF213 /* AcceleratorSampleApp_SwiftUITests.swift */; };
-		A008E7BD1E721BB200CFF213 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A008E7BC1E721BB200CFF213 /* Podfile */; };
 		A00AD2EF1E724D30007E8AAC /* ScreenShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00AD2EE1E724D30007E8AAC /* ScreenShareViewController.swift */; };
 		A00AD2F11E727C90007E8AAC /* TextChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00AD2F01E727C90007E8AAC /* TextChatTableViewController.swift */; };
 		A030AD581E721D6600D908D9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030AD571E721D6600D908D9 /* MainViewController.swift */; };
@@ -56,6 +53,9 @@
 		A030AD561E721CED00D908D9 /* AcceleratorSampleApp-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AcceleratorSampleApp-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		A030AD571E721D6600D908D9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A030AD591E721DB800D908D9 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A9E8F576018AA3699F98222F /* Pods-AcceleratorSampleApp-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceleratorSampleApp-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceleratorSampleApp-Swift/Pods-AcceleratorSampleApp-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC709F43AE400DF3D09D862 /* libPods-AcceleratorSampleApp-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcceleratorSampleApp-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB606EBB04D127E55958F89 /* Pods-AcceleratorSampleApp-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceleratorSampleApp-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceleratorSampleApp-Swift/Pods-AcceleratorSampleApp-Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B850B1DD2542BC2741A62DA /* libPods-AcceleratorSampleApp-Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DEDA5D1495C64448ED39DBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8F576018AA3699F98222F /* Pods-AcceleratorSampleApp-Swift.debug.xcconfig */,
+				FBB606EBB04D127E55958F89 /* Pods-AcceleratorSampleApp-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A606C19C71D8A277C16E567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC709F43AE400DF3D09D862 /* libPods-AcceleratorSampleApp-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A008E7821E721A0D00CFF213 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +109,8 @@
 				A008E7A21E721A0D00CFF213 /* AcceleratorSampleApp-SwiftTests */,
 				A008E7AD1E721A0D00CFF213 /* AcceleratorSampleApp-SwiftUITests */,
 				A008E78C1E721A0D00CFF213 /* Products */,
+				1DEDA5D1495C64448ED39DBE /* Pods */,
+				7A606C19C71D8A277C16E567 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A008E7B31E721A0D00CFF213 /* Build configuration list for PBXNativeTarget "AcceleratorSampleApp-Swift" */;
 			buildPhases = (
+				582B2EAC1ABD4DDAA441EC8E /* [CP] Check Pods Manifest.lock */,
 				A008E7871E721A0D00CFF213 /* Sources */,
 				A008E7881E721A0D00CFF213 /* Frameworks */,
 				A008E7891E721A0D00CFF213 /* Resources */,
+				FC0855D786148E396D0E90E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +229,7 @@
 				TargetAttributes = {
 					A008E78A1E721A0D00CFF213 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = MGD69Q275W;
+						DevelopmentTeam = 7Z3PV59299;
 						ProvisioningStyle = Automatic;
 					};
 					A008E79E1E721A0D00CFF213 = {
@@ -229,6 +251,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -249,10 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A008E7991E721A0D00CFF213 /* LaunchScreen.storyboard in Resources */,
-				A008E7961E721A0D00CFF213 /* Assets.xcassets in Resources */,
-				A008E7BD1E721BB200CFF213 /* Podfile in Resources */,
-				A008E7941E721A0D00CFF213 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +290,59 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		582B2EAC1ABD4DDAA441EC8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcceleratorSampleApp-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0855D786148E396D0E90E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AcceleratorSampleApp-Swift/Pods-AcceleratorSampleApp-Swift-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OTAcceleratorCore/OTAcceleratorCoreBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OTAnnotationAccelerator/OTAnnotationAcceleratorBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OTTextChatAccelerator/OTTextChatAcceleratorBundle.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OTAcceleratorCoreBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OTAnnotationAcceleratorBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OTTextChatAcceleratorBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceleratorSampleApp-Swift/Pods-AcceleratorSampleApp-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A008E7871E721A0D00CFF213 /* Sources */ = {
@@ -382,6 +454,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -424,6 +497,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -431,31 +505,33 @@
 		};
 		A008E7B41E721A0D00CFF213 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E8F576018AA3699F98222F /* Pods-AcceleratorSampleApp-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGD69Q275W;
+				DEVELOPMENT_TEAM = 7Z3PV59299;
 				INFOPLIST_FILE = "AcceleratorSampleApp-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.AcceleratorSampleApp-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AcceleratorSampleApp-Swift/AcceleratorSampleApp-Swift-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		A008E7B51E721A0D00CFF213 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB606EBB04D127E55958F89 /* Pods-AcceleratorSampleApp-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGD69Q275W;
+				DEVELOPMENT_TEAM = 7Z3PV59299;
 				INFOPLIST_FILE = "AcceleratorSampleApp-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.AcceleratorSampleApp-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AcceleratorSampleApp-Swift/AcceleratorSampleApp-Swift-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -469,7 +545,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.AcceleratorSampleApp-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcceleratorSampleApp-Swift.app/AcceleratorSampleApp-Swift";
 			};
 			name = Debug;
@@ -484,7 +560,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.AcceleratorSampleApp-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcceleratorSampleApp-Swift.app/AcceleratorSampleApp-Swift";
 			};
 			name = Release;
@@ -498,7 +574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.AcceleratorSampleApp-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = "AcceleratorSampleApp-Swift";
 			};
 			name = Debug;
@@ -512,7 +588,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.AcceleratorSampleApp-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = "AcceleratorSampleApp-Swift";
 			};
 			name = Release;

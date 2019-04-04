@@ -53,7 +53,7 @@ class TextChatTableViewController: OTTextChatViewController {
         textChatInputView.sendButton.addTarget(self, action: #selector(TextChatTableViewController.sendTextMessage), for: .touchUpInside)
     }
     
-    func sendTextMessage() {
+    @objc func sendTextMessage() {
         textChat?.sendMessage(textChatInputView.textField.text)
     }
 }

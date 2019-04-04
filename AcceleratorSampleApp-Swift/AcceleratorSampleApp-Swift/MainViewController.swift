@@ -162,8 +162,8 @@ extension MainViewController: UIImagePickerControllerDelegate, UINavigationContr
         screenSharingVC.sharingImage = selectedImage
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        guard let image = info[UIImagePickerControllerOriginalImage] as? UIImage else {return}
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+        guard let image = info[.originalImage] as? UIImage else { return }
         selectedImage = image
         picker.dismiss(animated: true) {
             [unowned self] in
